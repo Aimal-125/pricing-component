@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This solution is for the interactive pricing component challenge frontend mentor">
+	<meta name="keywords" content="Interactive Pricing Component, Interactive Pricing Component Responsive Solution">
+	<meta name="author" content="Aimal Khan">
+	<title>Interactive Pricing Component</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="ex.js" defer></script>
+</head>
+<body>
+	<div class="bg-pattern"></div>
+	<div class="bg-text-div">
+		<h1 class="bg-text">Simple, traffic-based pricing</h1>
+		<p class="bg-text-small">
+			Sign-up for our 30-day trial. No credit card required.
+		</p>
+		<div class="text-pattern"></div>
+	</div>
+	<main>
+		<div class="container">
+			<div class="div1">
+				<div class="text-div">
+					<p class="pg-text"><span class="pageviews"></span>K PAGEVIEWS</p>
+					<p class="amount-text">$<span class="amount"></span> <span class="per-month">/ month</span></p>
+				</div>
+				<div class="range-div">
+					<input type="range" name="range" id="range-slider" min="0" value="500" max="1000">
+				</div>
+				<div class="mobile-text-div">
+					<p class="mobile-amount-text">$<span class="mobile-amount"></span> <span class="mobile-per-month">/ month</span></p>
+				</div>
+				<div class="toggle-div">
+					<div class="monthly-text"><span>Monthly Billing</span></div>
+					<label class="toggle-switch-container" for="checkbox">
+						<input type="checkbox" name="toggle" class="switch" id="checkbox">
+						<span class="slider"></span>
+					</label>
+					<div class="yearly-text"><span>Yearly Billing</span> <span class="discount-text"><span class="minus-sign">-</span>25% <span class="m-hide">discount</span></span></div>
+				</div>
+			</div>
+			<div class="div2">
+				<div class="trial-div1">
+					<div class="text-container c-1">
+						<div class="right-icon i-1"></div>
+						<p class="trial-text">Unlimited websites</p>
+					</div>
+					<div class="text-container c-2">
+						<div class="right-icon i-2"></div>
+						<p class="trial-text">100% data ownership</p>
+					</div>
+					<div class="text-container c-3">
+						<div class="right-icon i-3"></div>
+						<p class="trial-text">Email Reports</p>
+					</div>
+				</div>
+				<div class="trial-div2">
+					<button class="trial-btn">Start my trial</button>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
