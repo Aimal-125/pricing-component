@@ -26,7 +26,7 @@ Users should be able to:
 
 #### Desktop Design
 
-![](./screenshot.jpg) 
+![](./desktop-design.jpg) 
 
 ### Links
 
