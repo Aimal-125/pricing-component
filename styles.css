@@ -538,14 +538,16 @@ body {
 		top: initial;
 	}
 	.monthly-text {
-		font-size: 16px;
+		font-size: 14px;
 		position: initial;
+		letter-spacing: initial;
 	}
 	.yearly-text {
-		font-size: 16px;
+		font-size: 14px;
 		position: initial;
 		display: flex;
 		flex-direction: column;
+		letter-spacing: initial;
 	}
 	.discount-text {
 		font-size: 16px;
@@ -563,6 +565,9 @@ body {
 	}
 	.toggle-switch-container {
 		left: 0;
+		border-radius: 30px;
+		transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
 	}
 	.trial-text {
 		font-size: 16px;
